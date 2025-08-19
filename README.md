@@ -22,9 +22,7 @@ To set up the framework, you can either fork or clone the repository from [here]
 9.	Add it to your system PATH or specify the path in your test code.
     
 ### Note:
-When you run any tests, you will receive a report with status of Failing/ Pending or Skipped tests.
-
-### Like this:
+When you run any tests, you will receive a report with status like this:
 
 #### Default Suite
 #### Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
