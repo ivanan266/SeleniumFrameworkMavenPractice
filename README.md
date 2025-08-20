@@ -25,5 +25,7 @@ To set up the framework, you can either fork or clone the repository from [here]
 When you run any tests, you will receive a report with status like this:
 
 #### Default Suite
+-----------------------------------------------------
 Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+-----------------------------------------------------
 
