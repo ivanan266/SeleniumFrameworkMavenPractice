@@ -22,7 +22,6 @@ To set up the framework, you can either fork or clone the repository from [here]
 9.	Add it to your system PATH or specify the path in your test code.
 
 ### Run all tests:
-```bash
 -  mvn clean test
 
 
