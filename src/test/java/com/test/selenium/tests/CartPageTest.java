@@ -9,7 +9,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import java.time.Duration;
 import java.util.List;
 
@@ -43,6 +42,7 @@ public class CartPageTest extends BaseTest {
         String expectedUrl = "https://www.saucedemo.com/cart.html";
         String actualUrl = driver.getCurrentUrl();
         Assert.assertEquals(actualUrl, expectedUrl, "You are not on the Cart page.");
+        System.out.println(expectedUrl);
     }
 
     @Test
