@@ -5,7 +5,7 @@
 2.	Maven (Ensure that the .m2 class path is properly set)
 3.	IntelliJ IDEA
 4.	Required IntelliJ Plugins:
-   -    Maven
+   -  Maven
 
 ### Framework Setup
 To set up the framework, you can either fork or clone the repository from [here](https://github.com/ivanan266/SeleniumFrameworkMavenPractice) or download the ZIP file and set it up in your local workspace.
@@ -20,6 +20,10 @@ To set up the framework, you can either fork or clone the repository from [here]
 7.	Add WebDriver Executable
 8.	Download ChromeDriver or GeckoDriver.
 9.	Add it to your system PATH or specify the path in your test code.
+
+### Run all tests:
+```bash
+-  mvn clean test
     
 ### Note:
 When you run any tests, you will receive a report with status like this:
